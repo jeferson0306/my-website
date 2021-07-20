@@ -56,6 +56,17 @@ h3 {
     color: #0C0C0D;
 }
 
+h4 {
+    padding: 15px;
+    font-family: 'Open sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    color: #3B8DD9;
+}
+
 .js-title {
     position: absolute;
     width: 680px;
@@ -523,9 +534,40 @@ h3 {
     transform: rotate(90deg);
 }
 
+.js-container-itens {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around; 
+}
+
+.js-item {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 140px;
+    top: 1684px;
+    background: #3B8DD9;
+    border: 1px solid #3B8DD9;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+
 .js-img {
     display: block;
     width: 255px;
     height: 426px;
     border-radius: 5px 35px 0px 0px;
 }
+<<<<<<< HEAD
+=======
+
+.js-footer {
+    position: absolute;
+    width: 1440px;
+    height: 50px;
+    left: 0px;
+    top: 2835px;
+    background: #FBFBFB;
+}
+>>>>>>> notebook
